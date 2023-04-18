@@ -197,7 +197,7 @@ header {
   display: flex;
   animation: scrolling var(--marquee-animation-duration) linear infinite;
   align-items: center;
-  margin-top: 8px;
+  margin-top: -6px;
 }
 
 @keyframes scrolling {
@@ -276,7 +276,6 @@ header {
 /* footer */
 .footer {
   font-family: "Outfit", sans-serif;
-  margin-left: 1rem;
 }
 
 .footer-col ul li {
